@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;700&family=Ubuntu:wght@500;700&display=swap"
+    rel="stylesheet" /
+  </head>
+  <body>
+    <header>
+      <div class="hero-img">
+        <main class="page-wrapper">
+          <div class="main-wrapper">
+            <div id="myDIV" class="header">
+              <h2>
+                Weekly <br />
+                Create a Shopping List
+              </h2>
+              <input type="text" id="myInput" placeholder="Write List..." />
+              <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+
+            <ul id="myUL">
+              <li>Milk</li>
+              <li class="checked">Eggs</li>
+              <li>Sausages</li>
+              <li>Butter</li>
+              <li>Flour</li>
+              <li>Olive oil</li>
+            </ul>
+          </div>
+        </main>
+      </div>
+    </header>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
